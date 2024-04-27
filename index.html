@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <title>Sleep Disorder Prediction</title>
+</head>
+<body style="background-image: url('static/sleep.jpg');">
+    <div class="container">
+        <h1>Sleep Disorder Prediction</h1>
+        <form action="/predict" method="post">
+            <label for="age">Age:</label>
+            <input type="number" name="age" required>
+
+            <label for="sleep_duration">Sleep Duration:</label>
+            <input type="number" name="sleep_duration" step="0.1" required>
+
+            <label for="quality_of_sleep">Quality of Sleep:</label>
+            <input type="number" name="quality_of_sleep" required>
+
+            <label for="bmi_category">BMI Category:</label>
+            <select name="bmi_category" required>
+                <option value="Normal">Normal</option>
+                <option value="Obese">Obese</option>
+                <option value="Overweight">Overweight</option>
+            </select>
+
+            <label for="systolic_bp">Systolic Blood Pressure:</label>
+            <input type="text" name="systolic_bp" required>
+
+            <label for="diastolic_bp">Diastolic Blood Pressure:</label>
+            <input type="text" name="diastolic_bp" required>
+
+            <label for="heart_rate">Heart Rate:</label>
+            <input type="number" name="heart_rate" required>
+
+            <label for="daily_steps">Daily Steps:</label>
+            <input type="number" name="daily_steps" required>
+
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Result</title>
+</head>
+<body style="background-image: url('{{ url_for('static', filename='sleep.jpg') }}');">
+    <div class="container">
+        <h1>Result</h1>
+        <p>The predicted sleep disorder for the new person is: {{ prediction }}</p>
+        
+        <!-- New column for well-being -->
+        <div>
+            <h2>Well-being</h2>
+            <p>{{ well_being_message }}</p>
+        </div>
+    </div>
+</body>
+</html>
