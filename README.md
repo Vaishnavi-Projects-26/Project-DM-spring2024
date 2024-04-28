@@ -1,5 +1,3 @@
-# Project-DM
-
 
 # Sleep Disorder Prediction and well being enhancement Web App
 
@@ -17,7 +15,21 @@ To run the application locally, follow these steps:
 ```bash
 python app.py
 
-Then run the http server on the browser  ```
+you will get  an https server link run it on browser.
+
+Then run the http server on the browser
+
+example :
+
+
+C:\Desktop\Project_Sleep_Disorder_Wellbeing>python app.py
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+http://127.0.0.1:5000  run this url on your browser
+
+  ```
 
 
 Folder structure to be :
