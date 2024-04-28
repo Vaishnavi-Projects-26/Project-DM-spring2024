@@ -36,11 +36,12 @@ Folder structure to be :
 
 Sleep_Disorder_Prediction_wellbeing_
 │
-│   ├---backenddata.csv
-│   ├── app.py
-│   ├── static/
-│   │   └── styles.css
-│   └── templates/
+├──├---backenddata.csv
+│  ├── app.py
+│  ├── static/
+│  │   └── styles.css
+│  │      └──background_imge.jpg
+│  └── templates/
 │       ├── index.html
 │       └── result.html
 │
